@@ -1,0 +1,18 @@
+h1, h2{
+    font-family: "Great Vibes", sans-serif;
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+li{
+    line-height: 1.46;
+}
+
+body{
+    padding: 60px 50px;
+    font-family: "Raleway",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+

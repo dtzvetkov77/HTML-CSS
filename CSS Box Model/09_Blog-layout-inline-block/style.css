@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    font-family: Helvetica, sans-serif;
+    padding: 30px;
+}
+
+header, section, footer {
+    width:  60%;
+    display: inline-block;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+img{
+    display: block;
+    width: 70%;
+    height: auto;
+}
+
+aside {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: -10px;
+
+}
+
+aside h2 {
+    margin-left: 10px;
+}
+
+
+

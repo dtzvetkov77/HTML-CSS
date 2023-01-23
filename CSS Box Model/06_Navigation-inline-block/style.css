@@ -1,0 +1,42 @@
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 50px;
+}
+
+header {
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.nav-title{
+    text-transform: uppercase;
+    display: inline;
+}
+
+nav {
+    display: inline-block;
+    padding-left: 70px;
+    
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: green;
+    padding: 10px;
+}
+
+.main-title {
+ font-weight: 200;
+ font-size: 30px;
+ font-family:'Times New Roman', Times, serif
+}
+
+p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
