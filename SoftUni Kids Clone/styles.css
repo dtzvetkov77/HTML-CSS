@@ -1,0 +1,230 @@
+@import 'https://use.fontawesome.com/releases/v6.2.1/css/all.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap');
+
+:root {
+    --clr-green: #41bfad;
+    --clr-orange: #ffb401;
+    --clr-blue: #66b9f9;
+    --clr-grey: #565656;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Header */
+
+.header {
+    background-color: var(--clr-green);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 90px;
+
+}
+
+.header .logo {
+    width: 50%;
+}
+
+.header .navigation .nav-items {
+    display: flex;
+    list-style: none;
+}
+
+.header .navigation .nav-items > li {
+    margin-right: 20px;
+}
+
+.header .navigation .nav-items > li > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Teachers Section */
+
+
+
+.hero  {  
+    background-color: var(--clr-orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .hero-content {
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    padding: 50px 100px;
+}
+
+.hero .hero-content > h1 {
+margin-bottom: 10px;
+font-size: 36px;
+}
+
+/* Profiles */
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 40px 300px 40px;
+}
+
+.profiles .profile {
+    display: flex;
+    width: 750px;
+}
+
+.profiles .profile .img-wrapper {
+    width: 250px;
+    height: 250px;
+    margin-right: 30px;
+}
+
+
+
+.profile-img {
+border-radius: 50%;
+border: 10px solid var(--clr-green);
+}
+
+.profile-img#elena {
+    height: 250px;
+    width: 250px;
+}
+
+.profiles .profile .content {
+    width: 62%;
+}
+
+.name {
+    color: var(--clr-green);
+    font-size: 24px;
+    margin-bottom: 10px ;
+}
+
+.role {
+    color: #d4d1cd;
+}
+
+.other .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.other .img-wrapper {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.other .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.other {
+    margin-bottom: 60px;
+}
+
+/* Input Section */
+.job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-blue);
+    padding: 50px 0px 150px 0px 
+}
+
+.job .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 950px;
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.form {
+    display: flex;
+    gap: 20px
+}
+
+.form .input {
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    margin-right: 20px;
+}
+
+.action-btn {
+    border-radius: 30px;
+    color: #fff;
+    background-color: var(--clr-orange);
+    border: none;
+    padding: 10px 30px
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.divider {
+    width: 100%;
+    height: 12px;
+    background: var(--clr-blue);
+    opacity: 80%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--clr-grey);
+    padding: 20px;
+}
+
+footer .link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #fff;
+}
+
+footer .link-container .link-list {
+    padding-left: 0;
+}
+
+footer .link-container .link-list .link {
+    text-decoration: none;
+    color:#fff;
+    font-size: 16px;
+}
+
+.footer-divider {
+    width: 100%;
+    height: 12px;
+    background: var(--clr-grey);
+    opacity: 80%;
+}
+
+.link-list.icons {
+    display: flex;
+    gap: 20px
+}
+
+
